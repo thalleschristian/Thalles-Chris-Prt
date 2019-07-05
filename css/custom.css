@@ -46,7 +46,8 @@
  }
  
  .bg-cyan {
-     background-color: aqua;
+     background-image: linear-gradient(45deg, #b6b4b8 2.38%, #00ffff 2.38%, #00ffff 50%, #b6b4b8 50%, #b6b4b8 52.38%, #00ffff 52.38%, #00ffff 100%);
+     background-size: 59.40px 59.40px;
  }
  
  h1,
