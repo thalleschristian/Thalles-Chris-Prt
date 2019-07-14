@@ -20,7 +20,8 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script type="text/javascript" src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="icon" href="img/favcon.ico" type="image/x-icon">
-
+    <!-- fake loader -->
+    <link type="text/css" rel="stylesheet" href="css/fakeLoader.min.css" />
 
 
     <meta charset="UTF-8">
@@ -30,7 +31,7 @@
 </head>
 
 <body>
-
+    <div class="fakeLoader"></div>
     <div class="" id="home">
         <nav class="grey darken-4 z-depth-3 black-text">
             <div class="nav-wrapper container">
@@ -281,7 +282,7 @@
     <script type="text/javascript " src="https://code.jquery.com/jquery-3.2.1.min.js "></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js "></script>
-
+    <script src="js/fakeLoader.min.js"></script>
     <script type="text/javascript ">
         $(".button-collapse ").sideNav();
         //paralax
@@ -293,7 +294,17 @@
         AOS.init();
         //tooltip
         $('.tooltipped').tooltip();
+
+        //fake loader contents
+        $(document).ready(function() {
+            $.fakeLoader({
+                timeToHide: 1000,
+                bgColor: "#00f7ff",
+                spinner: "spinner4"
+            });
+        });
     </script>
+    <div class="fakeLoader"></div>
 </body>
 
 </html>
