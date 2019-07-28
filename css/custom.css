@@ -63,6 +63,17 @@
      font-family: 'Quicksand', sans-serif;
  }
  
+ .section-tabs p {
+     font-size: 16px;
+ }
+ 
+ .section-tabs hr {
+     background-color: #141414!important;
+     height: 2px;
+     border: none;
+     width: 20%;
+ }
+ 
  .section-banner hr {
      background-color: #141414!important;
      height: 2px;
@@ -111,6 +122,18 @@
  
  .bg-grey {
      background-color: #141414;
+ }
+ 
+ .bg-round-img {
+     background-image: url(../img/141414down.png);
+ }
+ 
+ .bg-round-img-w {
+     background-image: url(../img/bannerimg.png);
+ }
+ 
+ .bg-round-img-banner {
+     background-image: url(../img/bannerimg.png);
  }
  /*timeline*/
  
@@ -272,3 +295,22 @@
          right: auto;
      }
  }
+ 
+ .tabs .tab a {
+     color: #000;
+ }
+ 
+ .tabs .tab a:hover {
+     background-color: #eee;
+     color: #000;
+ }
+ 
+ .tabs .tab a.active {
+     color: #000
+ }
+ 
+ .tabs .indicator {
+     background-color: rgb(15, 201, 201);
+ }
+ 
+ 
